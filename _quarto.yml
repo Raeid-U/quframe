@@ -28,6 +28,6 @@ site:
         contents:
           - text: subsection1
             href: subsection1/index.qmd
-      - text: Edit on Github 
+      - text: Edit on Github
         icon: github
         href: https://github.com/

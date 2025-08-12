@@ -1,12 +1,18 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-
 /.quarto/
 
 _site
 
 *.html
 
+.env
+*.env
+
 .DS_Store
+.vscode
+.ropeproject
+
+# if opened in R-Studio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
