@@ -1,0 +1,35 @@
+---
+title: "Tutorial"
+---
+
+## Quickstart Guide
+
+This tutorial explains how to clone this repository and set up your branch to start documenting.
+
+```bash
+# Note: You must have installed R and Quarto
+$ R --version
+
+R version 4.5.1 (2025-06-13) -- "Great Square Root"
+Copyright (C) 2025 The R Foundation for Statistical Computing
+Platform: aarch64-apple-darwin20
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under the terms of the
+GNU General Public License versions 2 or 3.
+For more information about these matters see
+https://www.gnu.org/licenses/.
+
+$ quarto --version
+
+1.7.31
+```
+
+
+### Getting Started
+
+{{< include _start.qmd >}}
+
+### Commit Process
+
+{{< include _commit-process.qmd >}}

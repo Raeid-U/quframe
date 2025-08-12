@@ -1,0 +1,58 @@
+---
+title: ""
+---
+
+1.  Clone the repo
+
+    ``` bash
+    git clone <github.com/repo>
+    cd <repo>
+    ```
+
+2.  Checkout to your Branch
+
+    ``` bash
+    git checkout <branch_name>
+    ```
+
+3.  Create & activate a venv
+
+    ``` bash
+    python3 -m venv ./.quarto-venv
+    source ./.quarto-venv/bin/activate
+    ```
+
+4.  Install dependencies
+
+    ``` bash
+    # (with your venv activated)
+    pip install --upgrade pip
+    pip install -r requirements.txt
+    ```
+
+5.  Preview or render your site
+
+    ``` bash
+    # (with your venv activated)
+    quarto preview index.qmd
+    ```
+
+6.  (if necessary) re-generate a `requirements.txt`
+
+    ``` bash
+    # Whenever you add or update a Python package, run:
+    # (with your venv activated)
+    pip install <new_package>
+    pip freeze > requirements.txt
+    ```
+    
+7.  build project
+
+    ``` bash
+    # (with your venv activated)
+    # 1. delete the output folder and render everything
+    quarto render --clean
+    
+    # 2. ignore any cache so all code chunks re-execute
+    quarto render . --no-cache
+    ```

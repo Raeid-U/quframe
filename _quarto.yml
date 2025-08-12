@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: _site
+  preview:
+    watch-inputs: true
+
+format:
+  html:
+    theme: lumen
+    toc: true
+    lightbox: true
+    html-math-method: katex
+    code-links:
+      - text: Project Repo
+        href: https://github.com/Raeid-U/murasalah
+
+site:
+  title: "<quframe>"
+  sidebar:
+    style: floating
+    search: true
+    contents:
+      - text: Home
+        href: index.qmd
+      - text: Tutorial
+        href: tutorial/index.qmd
+      - section: "section1"
+        contents:
+          - text: subsection1
+            href: subsection1/index.qmd
+      - text: Edit on Github 
+        icon: github
+        href: https://github.com/Raeid-U/quframe
