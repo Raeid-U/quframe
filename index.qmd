@@ -1,5 +1,5 @@
 ---
-title: "visual"
+title: "<landing title>"
 ---
 
-## Quarto Framework
+## <heading>

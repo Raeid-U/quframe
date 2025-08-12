@@ -59,7 +59,7 @@ Branching workflow: main → production → testing → `<username>/<branch>`
 
 7.  Resolve merge conflicts
 
-    -   If you encounter any merge conflicts when merging into `testing`, ping @S Muzzammil or @ignLance or @amarzbar for assistance before proceeding.
+    -   If you encounter any merge conflicts when merging into `testing`, ping @admin for assistance before proceeding.
 
 8.  Verify changes on testing
 

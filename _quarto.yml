@@ -12,10 +12,10 @@ format:
     html-math-method: katex
     code-links:
       - text: Project Repo
-        href: https://github.com/Raeid-U/murasalah
+        href: https://github.com/
 
 site:
-  title: "<quframe>"
+  title: "<title>"
   sidebar:
     style: floating
     search: true
@@ -30,4 +30,4 @@ site:
             href: subsection1/index.qmd
       - text: Edit on Github 
         icon: github
-        href: https://github.com/Raeid-U/quframe
+        href: https://github.com/

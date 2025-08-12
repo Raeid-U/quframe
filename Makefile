@@ -1,4 +1,4 @@
-.PHONY: clean init venv 
+.PHONY: init venv preview install freeze clean
 
 init:
 		python3 -m venv ./.quarto-venv
